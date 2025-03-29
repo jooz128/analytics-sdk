@@ -1,0 +1,15 @@
+{
+  "name": "@d1414k/analytics-js",
+  "version": "1.0.3",
+  "description": "",
+  "main": "dist/index.global.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsup src/index.ts --format esm,iife --dts"
+  },
+  "author": "d1414k",
+  "license": "MIT"
+}
